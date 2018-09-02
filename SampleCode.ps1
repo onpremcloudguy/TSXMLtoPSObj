@@ -1,5 +1,5 @@
 # put in the path to the extracted TS backup
-$path = "<FILEPATH>"
+$path = "D:\DEV\TStoOnenote"
 $smstspath = get-childitem $path -Filter sms*
 $tsID = $smstspath | get-childitem -Directory
 #region Create Package Object from Referencesinfo.xml
